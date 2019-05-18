@@ -1,0 +1,251 @@
+/***** Base Styles ******/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #02554C;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#work {
+    height: 1450px;
+}
+
+#about {
+    height: 650px;
+}
+
+#contact {
+    height: 450px;
+}
+
+#education {
+    height: 650px;
+}
+
+#border {
+  border: 1px solid #b7b7b7;
+}
+
+/***** Grid Section *********/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** Header Styles *******/
+
+.main {
+    background: url('../img/new-background.jpg');
+    height: 800px;
+    background-size: cover;
+    padding: 0px;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #bdbf09;
+    font-size: 60px;
+    padding-top: 300px;
+    text-align: center;
+}
+
+header p {
+    font-size: 48px;
+    text-align: center;
+    color: #02554C
+}
+
+nav {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 30px
+}
+
+/**** Work ****/
+
+#work {
+    background-color: #ffffff;
+}
+
+#work p, h4 {
+    color: #02554C;
+
+}
+
+#work h4 {
+    margin: 0px;
+}
+
+#work .sub-heading {
+    margin-top: 10px;
+}
+
+#work h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 30px 0px;
+}
+
+/****** About *******/
+.body-about {
+    background-color: #044660;
+
+}
+
+#about {
+    background-color: #044660;
+    color: white;
+}
+
+#about h3 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#about p {
+    font-weight: lighter;
+}
+
+#about span {
+    font-weight: bold;
+}
+
+#about .full-width {
+    padding: 0px;
+}
+
+#about .pic {
+    text-align: center;
+}
+
+#more {
+    background-color: white;
+    color: #044660;
+
+}
+/******* Education *******/
+
+#education {
+    background: url('../img/education-background.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    color: white;
+
+}
+
+#education h1, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#education h1 {
+    font-size: 36px;
+    padding-top: 30px;
+    text-align: center;
+    color: #044660;
+}
+
+#education .bio {
+    font-size: 18px;
+}
+
+#education .container {
+    width: 75%;
+    background-color: #02554C;
+    border-radius: 8%;
+    text-align: center;
+}
+
+#education ol li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#education p, li {
+    font-size: 18px;
+}
+
+
+/******* Contact *******/
+
+#contact {
+    background-color: #02554C;
+    color: white;
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+#contact h4 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+#contact p {
+    margin: 5px;
+    text-align: center;
+}
+
+#contact a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#contact .copyright {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    bottom: -100px;
+}
+
+#contact .full-width {
+    padding: 0px;
+}
+
+#contact img {
+    margin: 10px;
+}
+
+#contact .third-width {
+    height: 200px;
+}
